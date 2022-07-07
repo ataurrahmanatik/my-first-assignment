@@ -33,7 +33,7 @@ body {
 
 .second-part {
     top: 50px;
-    height: 800px;
+    height: 1200px;
     background-color: solid white;
     position: relative;
 }
@@ -69,21 +69,42 @@ body {
 
 .update-part {
     background-color: white;
+    background-size: cover;
     float: left;
+    align-content: center;
+    background-position: center;
+
 }
 
 .update-part-1 {
     text-align: center;
+
+
+
 }
 
 .update-part-2 {
-    display: flexbox;
-    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    align: center;
+
+
     width: 400px;
     height: 200px;
     background-color: antiquewhite;
-    margin: 3;
+    margin: 0;
+    margin-left: 40%;
+    margin-bottom: 20px;
 }
+
+.update-part-3 {
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+
+
 
 #one {
     background-color: white;
@@ -93,4 +114,29 @@ body {
 #two {
     background-color: red;
     text-align: center;
+}
+
+.a-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1;
+    padding: 1;
+
+
+}
+
+.box-color {
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: solid black;
+    height: 200px;
+    width: 100%;
+    margin: 10px;
+    padding: 2px;
+
 }
